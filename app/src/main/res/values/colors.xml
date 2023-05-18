@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="blue_dark">#147FA1</color>
+  <color name="blue_light">#01a8dd</color>
+  <color name="grey">#757874</color>
+  <color name="divider">#80757874</color>
+  <color name="light">#f0f1ed</color>
+  <color name="dark">#1F2224</color>
+  <color name="white">#f8faf5</color>
+  <color name="video_background">#050605</color>
+  <color name="launcher_background">#14C6FF</color>
+  <color name="launcher_foreground">#F8FAF5</color>
+</resources>
