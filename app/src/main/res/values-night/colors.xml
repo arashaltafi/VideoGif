@@ -10,4 +10,5 @@
   <color name="video_background">#050605</color>
   <color name="launcher_background">#14C6FF</color>
   <color name="launcher_foreground">#F8FAF5</color>
+  <color name="transparent">@android:color/transparent</color>
 </resources>
