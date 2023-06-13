@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.arash.altafi.videogif">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission
         android:name="android.permission.READ_EXTERNAL_STORAGE"
         android:maxSdkVersion="28" />
@@ -17,7 +18,7 @@
         android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:roundIcon="@drawable/icon"
-        android:supportsRtl="true"
+        android:supportsRtl="false"
         android:theme="@style/Theme.VideoGif">
         <activity
             android:name=".ui.MainActivity"
@@ -63,6 +64,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="pushe_token"
+            android:value="MmV5NmsxNXExNjVyd3kwZEByZ2pANDE3NzY5NjI5ODQy"/>
     </application>
 
 </manifest>
